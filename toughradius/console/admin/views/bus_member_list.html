@@ -39,18 +39,18 @@ function do_delete(member_id)
                         % endfor
                     </select>
                 </div>            
-                <label for="realname" class="col-md-1 control-label">姓名</label>
+                <label for="realname" class="col-md-1 control-label">昵称</label>
                 <div class="col-md-3">
                     <input type="text" id="realname" name="realname" class="form-control" placeholder="模糊查询" value="${realname and unicode(realname,'utf-8') or ''}">
                 </div>
-                <label for="idcard" class="col-md-1 control-label">证件</label>
+                <label for="idcard" class="col-md-1 control-label">序列号</label>
                 <div class="col-md-3">
                     <input type="text" id="idcard" name="idcard" class="form-control" placeholder="身份证件号" value="${idcard or ''}">
                 </div>
             </div>
             <div class="form-group">
  
-                <label for="mobile" class="col-md-1 control-label">手机</label>
+                <label for="mobile" class="col-md-1 control-label">QQ</label>
                 <div class="col-md-3">
                     <input type="text" id="mobile" name="mobile" class="form-control" placeholder="手机号" value="${mobile or ''}">
                 </div>                                            
@@ -104,7 +104,7 @@ function do_delete(member_id)
             <tr>
                 <th>区域</th>
                 <th>用户账号</th>
-                <th>用户姓名</th>
+                <th>用户ID</th>
                 <th>状态</th>
                 <th>资费</th>
                 <th>创建时间</th>
